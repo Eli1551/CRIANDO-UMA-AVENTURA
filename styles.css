@@ -1,0 +1,34 @@
+/* Feito por Eliaquim Pereira Silva Santos 2D */
+body{
+    background-color: black;
+    color: white;
+    font-family:"Pixelify Sans", sans-serif;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button{
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0);
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.passo{
+    display: none;
+}
+.passo.ativo{
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 80%;
+}
